@@ -35,7 +35,6 @@ main p{
     text-indent: 30px;
     font-size: 1.1em;
     line-height: 1em;
-
 }
 main strong{
     color: var(--cor4);

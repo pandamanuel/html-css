@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agrupando</title>
+        <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+            
+        }
+        col.si,col.sn{
+          background-color: blue;
+        }
+    </style>
+</head>
+<body>
+  <table>
+    <colgroup>
+      <col class="sn">
+      <col class="ss">
+      <col class="si" span="2">
+    </colgroup>
+    <caption>Cadastro</caption>
+    <tr>
+        <th scope="col" >Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">profissão</th>
+    </tr>
+    <tr>
+        <td>Panda</td>
+        <td>M</td>
+        <td>18</td>
+        <td>Engenheiro Militar</td>
+    </tr>
+    <tr>
+        <td>Mari</td>
+        <td>F</td>
+        <td>16</td>
+        <td>Engenheira Civil</td>
+    </tr>
+    <tr>
+        <td>Pulo</td>
+        <td>M</td>
+        <td>17</td>
+        <td>Militar</td>
+    </tr>
+  </table>  
+</body>
+</html>
